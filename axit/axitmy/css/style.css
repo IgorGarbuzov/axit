@@ -1,0 +1,48 @@
+:root {
+    --font1: 'Open Sans', sans-serif;
+    --font2: 'Raleway', sans-serif; 
+    --color_black:black;
+    --color_accent: #FF8B38;
+    --color_grey: #CCCCCC;
+    --color_white: White;
+}
+
+li {
+    font-family: var(--font2);
+}
+
+
+div {
+    color: white;
+}
+
+header .logo {
+    text-transform: uppercase;
+    font-size:35px;
+    font-family: var(--font1);
+    font-weight: 600px;
+}
+
+header { 
+    background-color: black;
+    height: 60px;
+}
+
+header section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header nav ul {
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+* a {
+    text-decoration: none;
+}
